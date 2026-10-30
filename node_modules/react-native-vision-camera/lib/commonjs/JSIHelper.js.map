@@ -1,0 +1,1 @@
+{"version":3,"names":["assertJSIAvailable","global","nativeCallSyncHook","CameraRuntimeError"],"sourceRoot":"../../src","sources":["JSIHelper.ts"],"mappings":";;;;;;AAAA;AAEO,SAASA,kBAAkB,GAAS;EACzC;EACA;EACA,IAAIC,MAAM,CAACC,kBAAkB,IAAI,IAAI,EAAE;IACrC,MAAM,IAAIC,+BAAkB,CAC1B,qCAAqC,EACrC,gSAAgS,CACjS;EACH;AACF"}

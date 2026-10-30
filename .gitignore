@@ -1,0 +1,36 @@
+.DS_Store
+.idea/
+.vscode/
+*.iml
+*.hprof
+.env
+/*.log
+/android/*.log
+
+# Build outputs
+/android/build/
+/android/app/build/
+/android/app/.cxx/
+/android/.gradle/
+/android/local.properties
+node_modules/**/android/build/
+node_modules/**/android/.cxx/
+node_modules/**/android/.gradle/
+/ios/build/
+/ios/Pods/
+xcuserdata
+*.jsbundle
+.metro-health-check*
+
+*.keystore
+!debug.keystore
+
+# Created by offline/setup.ps1 (joined from .partNN files / extracted)
+/offline/jdk/jdk-17*/
+
+/android/gradle/wrapper/gradle-7.5.1-all.zip
+/offline/gradle-cache/modules-2/files-2.1/com.facebook.react/hermes-android/0.72.4/d45f6c684d5dae98e8995529a2934cb4989c0745/hermes-android-0.72.4-release.aar
+/offline/gradle-cache/modules-2/files-2.1/com.facebook.react/hermes-android/0.72.4/e60ee8dfe14563da1f0df1616c1bbd6cb2745548/hermes-android-0.72.4-debug.aar
+/offline/gradle-cache/modules-2/files-2.1/com.facebook.react/react-android/0.72.4/51dc205f362a12520f3abe56f8a5054566c1ae52/react-android-0.72.4-release.aar
+/offline/gradle-cache/modules-2/files-2.1/com.facebook.react/react-android/0.72.4/908144bc260f04956a10fa2f6bd9583c6e963ba5/react-android-0.72.4-debug.aar
+/offline/jdk/OpenJDK17U-jdk_x64_windows_hotspot_17.0.20.1_1.zip
