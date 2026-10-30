@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.facebook.flipper",
+    "module": "flipper-fresco-plugin",
+    "version": "0.145.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.parse.bolts",
+          "module": "bolts-tasks",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flipper-fresco-plugin-0.145.0.aar",
+          "url": "flipper-fresco-plugin-0.145.0.aar",
+          "size": 37971,
+          "sha512": "9c4ceb8996f6e9adc50533fa303c36c7080c3dec2dc98dfd6919ac22bf5d375746efc34ec7411696d78e07a6a50e9ea40af920dc3c5b7acfc5744ce3c5a8ad71",
+          "sha256": "06007891a7cc22eeecbef9d2a21fd2879f58b66fe8ef0e3ffbeef5bc71220fbb",
+          "sha1": "60a3526e944ad2d3760c935dce47a64d787c7b2b",
+          "md5": "a7f40f338e9a922ff1a0e435840f0bfc"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.facebook.flipper",
+          "module": "flipper",
+          "version": {
+            "requires": "0.145.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "fresco",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "flipper",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "stetho",
+          "version": {
+            "requires": "2.6.0"
+          },
+          "excludes": [
+            {
+              "group": "com.facebook.stetho",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.parse.bolts",
+          "module": "bolts-tasks",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flipper-fresco-plugin-0.145.0.aar",
+          "url": "flipper-fresco-plugin-0.145.0.aar",
+          "size": 37971,
+          "sha512": "9c4ceb8996f6e9adc50533fa303c36c7080c3dec2dc98dfd6919ac22bf5d375746efc34ec7411696d78e07a6a50e9ea40af920dc3c5b7acfc5744ce3c5a8ad71",
+          "sha256": "06007891a7cc22eeecbef9d2a21fd2879f58b66fe8ef0e3ffbeef5bc71220fbb",
+          "sha1": "60a3526e944ad2d3760c935dce47a64d787c7b2b",
+          "md5": "a7f40f338e9a922ff1a0e435840f0bfc"
+        }
+      ]
+    }
+  ]
+}

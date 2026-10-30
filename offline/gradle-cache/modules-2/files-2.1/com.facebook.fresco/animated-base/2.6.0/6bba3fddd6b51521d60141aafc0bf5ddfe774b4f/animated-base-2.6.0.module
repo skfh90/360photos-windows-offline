@@ -1,0 +1,181 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.facebook.fresco",
+    "module": "animated-base",
+    "version": "2.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.facebook.fresco",
+          "module": "fbcore",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "imagepipeline-base",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "imagepipeline",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "imagepipeline-native",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "memory-type-ashmem",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "memory-type-native",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "memory-type-java",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "animated-drawable",
+          "version": {
+            "requires": "2.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "animated-base-2.6.0.aar",
+          "url": "animated-base-2.6.0.aar",
+          "size": 51595,
+          "sha512": "c6cddb9ee4a4c3f69de3e5f424f5dc03395ee9e1801476a93f9a3b73bc1ba6fd8a22e265111ad29aa9d86eac2be541c1199a404ac058860acbf9891d2d8776d9",
+          "sha256": "fb83484a9545ccac8da3bb4e02d20038611c3a6e4898fccd8bca4454952bffe7",
+          "sha1": "bb06c9ffac96981e3d8dfc60c2644e7a7e16ce33",
+          "md5": "21197a595b3109f3372b4a1faef5429f"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.parse.bolts",
+          "module": "bolts-tasks",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "fbcore",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "imagepipeline-base",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "imagepipeline",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "imagepipeline-native",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "memory-type-ashmem",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "memory-type-native",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "memory-type-java",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "animated-drawable",
+          "version": {
+            "requires": "2.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "animated-base-2.6.0.aar",
+          "url": "animated-base-2.6.0.aar",
+          "size": 51595,
+          "sha512": "c6cddb9ee4a4c3f69de3e5f424f5dc03395ee9e1801476a93f9a3b73bc1ba6fd8a22e265111ad29aa9d86eac2be541c1199a404ac058860acbf9891d2d8776d9",
+          "sha256": "fb83484a9545ccac8da3bb4e02d20038611c3a6e4898fccd8bca4454952bffe7",
+          "sha1": "bb06c9ffac96981e3d8dfc60c2644e7a7e16ce33",
+          "md5": "21197a595b3109f3372b4a1faef5429f"
+        }
+      ]
+    }
+  ]
+}

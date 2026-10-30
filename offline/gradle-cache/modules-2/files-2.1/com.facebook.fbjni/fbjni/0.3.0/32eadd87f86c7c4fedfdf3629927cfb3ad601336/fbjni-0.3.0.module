@@ -1,0 +1,68 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.facebook.fbjni",
+    "module": "fbjni",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.2",
+      "buildId": "ezaooxpbpfabfocakclwllin5m"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fbjni-0.3.0.aar",
+          "url": "fbjni-0.3.0.aar",
+          "size": 3884868,
+          "sha512": "131d5d4f6c260787fec6afc05b39bdf24f9c793e9c4deb865b3206b4b7d74e155ff43adedf69f00c8685867f4a1b6ddd6050214c8eaba14c6d34029ab6664753",
+          "sha256": "e573d9311ae0b1a558eb4db26806db1853668924414fbc9f3f8540cf32f375fd",
+          "sha1": "17fe26833dbdcebabc70764ded55c4f60665f486",
+          "md5": "afecc49d522f216cdd33c2fc7442d413"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.facebook.soloader",
+          "module": "nativeloader",
+          "version": {
+            "requires": "0.10.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fbjni-0.3.0.aar",
+          "url": "fbjni-0.3.0.aar",
+          "size": 3884868,
+          "sha512": "131d5d4f6c260787fec6afc05b39bdf24f9c793e9c4deb865b3206b4b7d74e155ff43adedf69f00c8685867f4a1b6ddd6050214c8eaba14c6d34029ab6664753",
+          "sha256": "e573d9311ae0b1a558eb4db26806db1853668924414fbc9f3f8540cf32f375fd",
+          "sha1": "17fe26833dbdcebabc70764ded55c4f60665f486",
+          "md5": "afecc49d522f216cdd33c2fc7442d413"
+        }
+      ]
+    }
+  ]
+}

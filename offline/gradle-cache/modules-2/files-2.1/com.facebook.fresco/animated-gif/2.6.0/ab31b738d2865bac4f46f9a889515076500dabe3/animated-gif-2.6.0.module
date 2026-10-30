@@ -1,0 +1,88 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.facebook.fresco",
+    "module": "animated-gif",
+    "version": "2.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "animated-gif-2.6.0.aar",
+          "url": "animated-gif-2.6.0.aar",
+          "size": 343595,
+          "sha512": "098065c9b306ce6cf50f0bdb526d7aff3e64d2dc571dc43d5b1451b51508c2874d040d35dae64a2ab9c276e0291bff31e0cf3129234f58df080cd11505a44276",
+          "sha256": "15a2e65d51d6999a894dbad2b5df0a1995d575fb891dacb594c2d5d58b56cf7a",
+          "sha1": "02d3d19608fb5884f04566f62603c783d3b6fe67",
+          "md5": "8585c1b464ce15196590ce30386715e4"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.parse.bolts",
+          "module": "bolts-tasks",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "com.facebook.soloader",
+          "module": "nativeloader",
+          "version": {
+            "requires": "0.10.1"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "fbcore",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "animated-base",
+          "version": {
+            "requires": "2.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "animated-gif-2.6.0.aar",
+          "url": "animated-gif-2.6.0.aar",
+          "size": 343595,
+          "sha512": "098065c9b306ce6cf50f0bdb526d7aff3e64d2dc571dc43d5b1451b51508c2874d040d35dae64a2ab9c276e0291bff31e0cf3129234f58df080cd11505a44276",
+          "sha256": "15a2e65d51d6999a894dbad2b5df0a1995d575fb891dacb594c2d5d58b56cf7a",
+          "sha1": "02d3d19608fb5884f04566f62603c783d3b6fe67",
+          "md5": "8585c1b464ce15196590ce30386715e4"
+        }
+      ]
+    }
+  ]
+}
