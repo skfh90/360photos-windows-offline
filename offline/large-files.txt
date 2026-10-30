@@ -1,0 +1,6 @@
+db9c8211ed63f61f60292c69e80d89196f9eb36665e369e7f00ac4cc841c2219 android/gradle/wrapper/gradle-7.5.1-all.zip
+bd933ca8f2fd8fe5b8f8331852a01fdf1ff9227dd3306769990ee5b6fcd6f172 offline/gradle-cache/modules-2/files-2.1/com.facebook.react/hermes-android/0.72.4/d45f6c684d5dae98e8995529a2934cb4989c0745/hermes-android-0.72.4-release.aar
+d3e5ad965bd533f56605ffad6b6fec4f226ca4480c293d4599bd6a23fea22413 offline/gradle-cache/modules-2/files-2.1/com.facebook.react/hermes-android/0.72.4/e60ee8dfe14563da1f0df1616c1bbd6cb2745548/hermes-android-0.72.4-debug.aar
+79868d31410feb3ac47bcc65b0d3d23bd894d4cc1c9226b55499f055b5143567 offline/gradle-cache/modules-2/files-2.1/com.facebook.react/react-android/0.72.4/51dc205f362a12520f3abe56f8a5054566c1ae52/react-android-0.72.4-release.aar
+8f591d57f9f0788840941f95b37b636f922ffefe6d601882dd2e600157172a56 offline/gradle-cache/modules-2/files-2.1/com.facebook.react/react-android/0.72.4/908144bc260f04956a10fa2f6bd9583c6e963ba5/react-android-0.72.4-debug.aar
+e53a79c3c3d86865bd7e787903884331068e71321714ffd44f145785affc7cb0 offline/jdk/OpenJDK17U-jdk_x64_windows_hotspot_17.0.20.1_1.zip
