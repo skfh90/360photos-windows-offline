@@ -1,0 +1,66 @@
+{
+  "formatVersion" : "1.1",
+  "createdBy" : {
+    "gradle" : {
+      "version" : "6.7-rc-4",
+      "buildId" : "m74peo7sszepbizxhmz6u2x3kq"
+    }
+  },
+  "component" : {
+    "group" : "com.github.adityaxjha",
+    "module" : "Android-ScalableVideoView",
+    "version" : "10e7b4da8b",
+    "attributes" : {
+      "org.gradle.status" : "release"
+    }
+  },
+  "variants" : [ {
+    "name" : "releaseApiPublication",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.libraryelements" : "aar",
+      "org.gradle.usage" : "java-api"
+    },
+    "dependencies" : [ {
+      "group" : "com.android.support",
+      "module" : "appcompat-v7",
+      "version" : {
+        "requires" : "31.0.0"
+      }
+    } ],
+    "files" : [ {
+      "name" : "Android-ScalableVideoView-10e7b4da8b.aar",
+      "url" : "Android-ScalableVideoView-10e7b4da8b.aar",
+      "size" : 22720,
+      "sha512" : "38cd3bebba4432e268c7ca25d8f0e6be34fad52b4a01eefd4130534e0e18df77ddaa898947fd9545119b1f8b63e2b5ffcc45b0e8b4b7b1610cdd78e4957ad3c5",
+      "sha256" : "2e3454a17ae022edfe8931c64df897f4de21377614aecb7e2c8fba4f262dcfd5",
+      "sha1" : "4f304d6adfdb7bfe12dde87bf30d8543e51c3dea",
+      "md5" : "1a9e8773567a0d9385fb916a6ccfc0ad"
+    } ]
+  }, {
+    "name" : "releaseRuntimePublication",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.libraryelements" : "aar",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "dependencies" : [ {
+      "group" : "com.android.support",
+      "module" : "appcompat-v7",
+      "version" : {
+        "requires" : "31.0.0"
+      }
+    } ],
+    "files" : [ {
+      "name" : "Android-ScalableVideoView-10e7b4da8b.aar",
+      "url" : "Android-ScalableVideoView-10e7b4da8b.aar",
+      "size" : 22720,
+      "sha512" : "38cd3bebba4432e268c7ca25d8f0e6be34fad52b4a01eefd4130534e0e18df77ddaa898947fd9545119b1f8b63e2b5ffcc45b0e8b4b7b1610cdd78e4957ad3c5",
+      "sha256" : "2e3454a17ae022edfe8931c64df897f4de21377614aecb7e2c8fba4f262dcfd5",
+      "sha1" : "4f304d6adfdb7bfe12dde87bf30d8543e51c3dea",
+      "md5" : "1a9e8773567a0d9385fb916a6ccfc0ad"
+    } ]
+  } ]
+}

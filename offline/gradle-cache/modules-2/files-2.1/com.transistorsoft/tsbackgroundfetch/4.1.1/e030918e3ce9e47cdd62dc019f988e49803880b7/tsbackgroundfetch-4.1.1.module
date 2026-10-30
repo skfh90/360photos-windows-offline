@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.transistorsoft",
+    "module": "tsbackgroundfetch",
+    "version": "4.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "tsbackgroundfetch-4.1.1.aar",
+          "url": "tsbackgroundfetch-4.1.1.aar",
+          "size": 34186,
+          "sha512": "f531054c4f2af051c8481907aeddce859a16926725ec3e46b6d440aa1b013c42bbf08c5faf267c3e5098f4f9bd65d7e4a65631a1ecfc137b927c5cbbf18320ea",
+          "sha256": "74b20be48a6043a0bd2768284fa05a152ef30be6ef57d349f5f3212527a47926",
+          "sha1": "99244f6b8569d87769781bb9471e0b9286858b4a",
+          "md5": "fbcbd3105a70966bed43ae87b119bcc7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.8.5"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-extensions",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tsbackgroundfetch-4.1.1.aar",
+          "url": "tsbackgroundfetch-4.1.1.aar",
+          "size": 34186,
+          "sha512": "f531054c4f2af051c8481907aeddce859a16926725ec3e46b6d440aa1b013c42bbf08c5faf267c3e5098f4f9bd65d7e4a65631a1ecfc137b927c5cbbf18320ea",
+          "sha256": "74b20be48a6043a0bd2768284fa05a152ef30be6ef57d349f5f3212527a47926",
+          "sha1": "99244f6b8569d87769781bb9471e0b9286858b4a",
+          "md5": "fbcbd3105a70966bed43ae87b119bcc7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tsbackgroundfetch-4.1.1-sources.jar",
+          "url": "tsbackgroundfetch-4.1.1-sources.jar",
+          "size": 13467,
+          "sha512": "fc8c6f752989582f7dc290ef4408c7b6fe29a54dd6190f7cd246976c24a7c2a040e1bd9c0919cd8224e61529cc8305aa0a0089d5bde19ba004ea4e81c68e54b6",
+          "sha256": "b79401b4b90192430ec24db34da91dfca69f0963e4d3dc752a43b451f0306ad9",
+          "sha1": "35e4e00e2b072c498438102fc4e4003700dc8da8",
+          "md5": "6669dfb78df18629a7b0f5c81f878979"
+        }
+      ]
+    }
+  ]
+}
